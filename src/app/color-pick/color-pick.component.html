@@ -1,0 +1,58 @@
+<div class="container">
+    <app-header></app-header>
+    <div class="main-head-cont">
+        <div class="header">
+            <div class="head-div">
+                <h3 class="head-text">
+                Color Picker
+            </h3>
+
+            <p class="text-cont">For this project, the goal was to get familiar with the Angular Materials library. I had been using some basic components like cards, input fields, buttons etc for my projects. There is a toggle component for the function I intended the program to have but I was interested in chips(component) which gave way to the multiple colour concept of the project.</p>
+            </div>
+        </div>
+        <div class="stack-container">
+            <div class="type">
+                <p class="type-title">Type</p>
+                <ul>
+                    <li>Game</li>
+                </ul>
+
+            </div>
+            <div class="stack">
+                <p class="type-title">Stack</p>
+                <ul>
+                    <li>Angular</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GIT</li>
+                </ul>
+            </div>
+            <div class="live">
+                <p class="type-title">Live</p>
+                <ul>
+                    <li class="site"><a target="_blank" href="https://my-colorpicker.netlify.app/">Site</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero-container">
+            <img class="hero-image" src="/assets/ColorPick.png">
+
+        </div>
+        <!-- <div class="arrow">
+            <mat-icon>arrow_downward</mat-icon>
+        </div> -->
+
+        <div class="proj-proposal">
+            <h2 class="proposal-head">Project Purpose and Goal</h2>
+            <p>My goal was to understand how to manipulate DOM elements and inject properties to elements to add changes dynamically</p>
+        </div>
+        <div class="problems">
+            <h2 class="problem-head">Problems and Thought Process</h2>
+            <p>
+                Using the chips component from the Materials library, my first thought was figuring out how to use it like a filter. Ideally, I figured I could have a function for each colour change. But that would mean that if I had to account for more colours, there’d be too many repetitive elements and functions to write which isn't efficient. My solution was to use an array of objects to which I assigned a name and property colour key. I used the array to generate the chip elements dynamically and pass the name key as labels and display it using string interpolation. Within the chip element, I called a function (yet to be created) that passes in the property colour. I then created the function which takes in the button(chip) value, then initialize it to a variable which I used to pass into HTML DOM using document.getElement then set the colour property of the card to the variable value.
+            </p>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

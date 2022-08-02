@@ -1,0 +1,89 @@
+.topnav {
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    z-index: 99999999;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+  
+  }
+.cont {
+  background: #121e27;
+}
+
+  h3 {
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  .topnav a {
+    position: relative;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    
+  }
+  
+  .topnav a.active {
+
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .cont {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  /* nav animation */
+
+  .inverted-5 {
+        background: left/var(--_p,0%) no-repeat,
+        linear-gradient(#0000 40%, #ff715b 0 60%, #0000 0) left/var(--_p,0%) no-repeat,
+        #000;
+        -webkit-background-clip: text, padding-box, text;
+        background-clip: text, padding-box, text;
+        transition: 0.8s
+    }
+  .inverted-5:hover {
+    --_p: 100%;
+  }

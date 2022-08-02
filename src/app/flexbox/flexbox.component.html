@@ -1,0 +1,61 @@
+<div class="container">
+    <app-header></app-header>
+    <div class="main-head-cont">
+        <div class="header">
+            <div class="head-div">
+                <h3 class="head-text">
+                Flexbox Game
+            </h3>
+
+            <p class="text-cont">Centring a &lt;div&gt; can be a bit tricky. Bellow we will explore one method to horizontally and vertically center your &lt;div&gt; using <span class=”bold”>Flexbox</span>. we will also look at alignment directions.</p>
+            </div>
+        </div>
+        <div class="stack-container">
+            <div class="type">
+                <p class="type-title">Type</p>
+                <ul>
+                    <li>Game</li>
+                </ul>
+
+            </div>
+            <div class="stack">
+                <p class="type-title">Stack</p>
+                <ul>
+                    <li>Angular</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GIT</li>
+       
+                </ul>
+            </div>
+            <div class="live">
+                <p class="type-title">Live</p>
+                <ul>
+                    <li class="site"><a target="_blank" href="https://flexbox-game.netlify.app/">Site</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero-container">
+            <img class="hero-image" src="/assets/flexbox.png">
+
+        </div>
+        <!-- <div class="arrow">
+            <mat-icon>arrow_downward</mat-icon>
+        </div> -->
+
+        <div class="proj-proposal">
+            <h2 class="proposal-head">Project Purpose and Goal</h2>
+            <p>There was no real purpose for this project. I was already comfortable using flex and had been using it as my main method to center my elements. The idea was inspired by memes about backend developers finding CSS a challenge, so I built a bit of a refresher.</p>
+        </div>
+        <div class="problems">
+            <h2 class="problem-head">Problems and Thought Process</h2>
+            <p>
+                The project was simple, I needed to make a form to get data and then manipulate it as needed. Then made a container and had 2 elements (red and blue) within it. I used Flexbox to center both form and container. I opted to use a function to get to data as I felt it'd be easier for what I needed. For the purpose of the project, I restricted input ability, the required text is selectable from drop-down boxes. Using ngModel directive, I was able to get the selected inputs. From there I made a function that is called by the Test Button on the form. Within the function, I used DOM styling to add the properties to the container to showcase the effects of Flexbox.
+                <br><br>
+                Moving forward I would like to add more flex properties, at the moment you can explore flex-direction. I want to also show how to use justify-content to add space around your elements
+            </p>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

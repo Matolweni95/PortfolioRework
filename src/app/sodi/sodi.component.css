@@ -1,0 +1,531 @@
+
+.main-head-cont {
+    margin-top: 6%;
+    max-width: 1000px;
+    padding-left: 25vh;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.head-text {
+    font-size: 35px;
+    padding-bottom: 10px;
+    letter-spacing: 0.1rem;
+    color: #121e27;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+
+li {
+    list-style: none;
+    font-size: 17px;
+    margin-bottom: 9px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding: 0px;
+}
+
+.head-div {
+    padding-bottom: 50px;
+}
+
+.text-cont {
+    width: 1000px;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 34px;
+    font-weight: normal;
+}
+
+
+a {
+    color: #ff715b;
+    text-decoration: none;
+}
+
+.type-title {
+    font-weight:600;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.stack-container {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.hero-image {
+    width: 1000px;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: rgb(88 88 88) 0px 30px 8px 10px;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+}
+
+mat-icon {
+    font-size: 70px;
+    color: #ff715b;
+}
+
+.presentations {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding-top: 50px;
+}
+
+.proj-proposal {
+    padding-top: 30px;
+    margin: 60px 0px;
+}
+
+.problems {
+    padding-bottom: 150px;
+}
+
+.proposal-head {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.problem-head {
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/*  */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+
+.container {margin: 0px;}
+
+.header {
+    width: 100%;
+}
+
+.main-head-cont {
+    padding-left: 0%;
+    padding: 0px 35px;
+}
+
+.head-text {
+    
+    line-height: 40px;
+}
+
+p {
+    width: fit-content;
+   
+}
+
+.stack-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    width: 0px;
+
+}
+
+.presentations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    height: 250px;
+    width: 290px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 250px;
+    width: 290px;
+}
+
+.proposal-head ,.proj-proposal, .problem-head {
+    line-height: 40px;
+}
+
+.text-cont {
+    width: inherit;
+}
+
+
+}
+
+@media only screen
+and (min-width : 620px)
+and (max-width : 816px) {
+ 
+}
+
+@media only screen
+and (min-width : 767px)
+and (max-width : 845px) {
+  
+}
+
+@media only screen
+and (min-width : 480px)
+and (max-width : 768px) {
+/* Styles */
+
+
+.container {margin: 0px;}
+
+.header {
+    width: 100%;
+}
+
+.main-head-cont {
+    padding-left: 0%;
+    padding: 0px 35px;
+}
+
+.head-text {
+    
+    line-height: 40px;
+}
+
+p {
+    width: fit-content;
+   
+}
+
+.stack-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    width: 0px;
+
+}
+
+.presentations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    height: 320px;
+    width: 340px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 320px;
+    width: 340px;
+}
+
+.proposal-head ,.proj-proposal, .problem-head {
+    line-height: 40px;
+}
+
+.text-cont {
+    width: inherit;
+}
+
+
+}
+ 
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 150px)
+and (max-width : 320px) {
+/* Styles */
+
+.container {margin: 0px;
+width: 100%;}
+
+.header {
+    width: 100%;
+}
+
+.main-head-cont {
+    padding-left: 0%;
+    padding: 0px 35px;
+}
+
+.head-text {
+    
+    line-height: 40px;
+    font-size: 1.5rem;
+}
+
+p {
+    width: fit-content;
+   
+}
+
+.stack-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    width: 0px;
+
+}
+
+.presentations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    height: 220px;
+    width: 180px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 200px;
+    width: 200px;
+}
+
+.proposal-head ,.proj-proposal, .problem-head, .lesson-head{
+    line-height: 40px;
+    font-size: 1.5rem;
+    width: inherit;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-cont {
+    width: inherit;
+}
+
+
+/* project */
+
+
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 280px) {
+/* Styles */
+
+
+/* project */
+
+
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+
+.container {margin: 0px;}
+
+.header {
+    width: 100%;
+}
+
+.main-head-cont {
+    padding-left: 0%;
+    padding: 0px 35px;
+}
+
+.head-text {
+    
+    line-height: 40px;
+}
+
+p {
+    width: fit-content;
+   
+}
+
+.stack-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    width: 0px;
+
+}
+
+.presentations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    height: 320px;
+    width: 340px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 320px;
+    width: 340px;
+}
+
+.proposal-head ,.proj-proposal, .problem-head {
+    line-height: 40px;
+}
+
+.text-cont {
+    width: inherit;
+}
+
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+
+.container {margin: 0px;}
+
+.header {
+    width: 100%;
+}
+
+.main-head-cont {
+    padding-left: 0%;
+    padding: 0px 35px;
+}
+
+.head-text {
+    
+    line-height: 40px;
+}
+
+p {
+    width: fit-content;
+   
+}
+
+.stack-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    width: 0px;
+
+}
+
+.presentations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    height: 420px;
+    width: 440px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    height: 320px;
+    width: 340px;
+}
+
+.proposal-head ,.proj-proposal, .problem-head {
+    line-height: 40px;
+}
+
+.text-cont {
+    width: inherit;
+}
+
+
+/* project */
+
+
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+  
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
