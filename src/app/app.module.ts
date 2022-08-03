@@ -15,6 +15,7 @@ import { MountainviewComponent } from './mountainview/mountainview.component';
 import { RecipeComponent } from './recipe/recipe.component';
 import {MatIconModule} from '@angular/material/icon';
 import { AboutComponent } from './about/about.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule, 
-    MatIconModule
+    MatIconModule, NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

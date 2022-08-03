@@ -1,4 +1,60 @@
+.cont {
+  display: flex;
+  position: relative;
+  padding-top: 20px;
+  background-color: #121e27;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
 .topnav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #121e27;
+  z-index: 9999999;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px 50px;
+}
+
+.navi {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+
+
+.navi .icon {
+  display: none;
+  text-decoration: none;
+  color: white;
+  z-index: 9999999;
+
+}
+
+.Hiddennav {
+  display: none;
+}
+
+
+/* .topnav {
     overflow: hidden;
     position: relative;
     justify-content: center;
@@ -38,13 +94,17 @@
   
   .topnav .icon {
     display: none;
-  }
+  } */
   
   @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
+    .topnav a:not(:active) {
+      display: none;
+      color: white;
+    }
+    .navi a.icon {
       float: right;
       display: block;
+     
     }
   }
 
@@ -53,6 +113,7 @@
     .topnav a.icon {
       float: right;
       display: block;
+      color: green;
     }
 
     .cont {
@@ -66,6 +127,13 @@
       position: absolute;
       right: 0;
       top: 0;
+    }
+
+    .topnav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     .topnav.responsive a {
       float: none;

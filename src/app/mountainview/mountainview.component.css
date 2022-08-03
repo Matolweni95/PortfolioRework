@@ -2,7 +2,7 @@
 .main-head-cont {
     margin-top: 6%;
     max-width: 1000px;
-    padding-left: 25vh;
+    padding-left: 9vh;
 }
 
 p{
@@ -84,6 +84,8 @@ mat-icon {
 
 .presentations {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 35px;
     padding-top: 50px;

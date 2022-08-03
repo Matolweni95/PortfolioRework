@@ -2,7 +2,7 @@
 .main-head-cont {
     margin-top: 6%;
     max-width: 1000px;
-    padding-left: 25vh;
+    padding-left: 9vh;
 }
 
 p{
@@ -84,6 +84,8 @@ mat-icon {
 
 .presentations {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 35px;
     padding-top: 50px;
@@ -95,7 +97,7 @@ mat-icon {
 }
 
 .problems {
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .proposal-head {
@@ -110,6 +112,24 @@ mat-icon {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     font-weight: 600;
+}
+
+.links {
+    margin-top: 30px;
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.lesson-head {
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.lesson {
+    padding-bottom: 150px;
 }
 
 /*  */

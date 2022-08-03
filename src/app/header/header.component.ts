@@ -30,6 +30,8 @@ myFunction() {
   } else {
     x!.className = "topnav";
   }
+
+  
 }
 
   navi(){
